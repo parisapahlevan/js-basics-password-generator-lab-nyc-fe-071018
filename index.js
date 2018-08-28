@@ -10,6 +10,13 @@ window.addEventListener("load", () => {
     let input = document.getElementById("passwordlength")
     let passwordLength = input.value 
     //console.log(specialCharacters)
+    if (passwordLength < 4){
+      passwordLength = 4
+    }
     let newPassword = ""
+    let 
+    for (let i=0; i< passwordLength; i++){
+      
+    }
   })
 });
