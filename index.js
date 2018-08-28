@@ -3,8 +3,8 @@ window.addEventListener("load", () => {
   let outputResult = document.querySelector("output")
   let loweCaseCharacters = "abcdefghijklmnopqrstuvwxyz".split('')
   let upperCaseLeters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('')
-  let numberCharacters = 0123456789
-  let specialCharacters = 
+  let numberCharacters = "0123456789".split('')
+  let specialCharacters = "!#$%&()*+,-./:;<=>?@[\]^_{|}~".split('')
   document.addEventListener("submit", (event) => {
     event.preventDefault()
     let input = document.getElementById("passwordlength")
