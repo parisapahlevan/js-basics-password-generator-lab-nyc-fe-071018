@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
     event.preventDefault()
     let input = document.getElementById("passwordlength")
     let passwordLength = input.value 
-    
+    console.log(specialCharacters)
     
   })
 });
